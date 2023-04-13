@@ -53,11 +53,11 @@ button:active {
     border-top-right-radius: 1rem;
 }
 
-.container-grid > .darker-row {
+.container-grid > .all-clear {
     background-color: #333;
 }
 
-.darker-row:active {
+.all-clear:active {
     background-color: rgb(212, 212, 210);
 }
 
@@ -69,10 +69,19 @@ button:active {
     background-color: rgb(212, 212, 210);
 }
 
-.output .user-input {
+.output .current-operand {
     font-size: 50px;
 }
 
-.equals {
+.container-grid .equals {
     border-bottom-right-radius: 1rem;
+    background-color: rgb(255, 149, 0);
+}
+
+.equals:active {
+    background-color: rgb(212, 212, 210);
+}
+
+.container-grid .darker-row {
+    background-color: rgba(0, 0, 0, 0.80);
 }
